@@ -11,6 +11,6 @@ def download_app_bundle_dependencies():
     maybe(
         http_jar,
         name = "bundletool_all",
-        sha256 = "c42c365ae7369dd4dc2ebc11eeebf91459f0226c53706fd24de4d006268ab88c",
-        urls = ["https://github.com/google/bundletool/releases/download/1.11.0/bundletool-all-1.11.0.jar"],
+        sha256 = "e740e7d38562c5e8d87cc817548b2db94e42802e9a0774fdf674e758ff79694d",
+        urls = ["https://github.com/google/bundletool/releases/download/1.14.0/bundletool-all-1.14.0.jar"],
     )
